@@ -1,0 +1,22 @@
+import java.io.*;
+
+public class ofad_02_multi3num {
+
+	public static void main(String args[]) throws IOException {
+		BufferedReader bufEntrada = new BufferedReader(new InputStreamReader(System.in));
+		double mul;
+		double numero1;
+		double numero2;
+		double numero3;
+		System.out.println("Escribe el primer numero");
+		numero1 = Double.parseDouble(bufEntrada.readLine());
+		System.out.println("Escribe el segundo numero");
+		numero2 = Double.parseDouble(bufEntrada.readLine());
+		System.out.println("Escribe el tercer numero");
+		numero3 = Double.parseDouble(bufEntrada.readLine());
+		mul = numero1*numero2*numero3;
+		System.out.println("Esta es la solución = "+mul);
+	}
+
+
+}
